@@ -1,0 +1,5 @@
+plugins
+platforms
+node_modules
+package-lock.json
+simulation

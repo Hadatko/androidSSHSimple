@@ -1,0 +1,33 @@
+{
+    "name": "androidsshsimple",
+    "displayName": "androidSSHSimple",
+    "version": "1.0.0",
+    "description": "Simple ssh android application example using web programing languages.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "ecosystem:cordova"
+    ],
+    "author": "Hadatko",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "cordova-android": "^8.1.0",
+        "cordova-plugin-exit": "^1.0.3",
+        "cordova-plugin-ssh-connect": "^1.1.1"
+    },
+    "devDependencies": {
+        "cordova-plugin-whitelist": "^1.3.4"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-exit": {},
+            "cordova-plugin-ssh-connect": {}
+        },
+        "platforms": [
+            "android"
+        ]
+    }
+}
